@@ -38,7 +38,10 @@ try {
 }
 
 // Middleware
-app.use(cors()); 
+app.use(cors({
+    origin: 'http://192.168.56.1:3000',  // asal frontend
+    credentials: true
+}));
 app.use(cookieParser());
 app.use(express.json());
 app.use(router);
