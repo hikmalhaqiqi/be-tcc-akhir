@@ -39,7 +39,7 @@ try {
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // atau IP frontend Anda
+  origin: 'http://35.193.61.42', // atau IP frontend Anda
   credentials: true
 }));
 
