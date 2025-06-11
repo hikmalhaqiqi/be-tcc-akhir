@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const storage = new Storage({
-  keyFilename: "./uploads/b-07-452412-8bf7ad1b6c96.json", // path ke key GCP-mu
+  keyFilename: "./uploads/gcp-key.json", // path ke key GCP-mu
   projectId: process.env.GCP_PROJECT_ID,
 });
 
